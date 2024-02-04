@@ -20,7 +20,11 @@ header {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 20px;
+    padding: 40px;
+    @media screen and (max-width: 600px) {
+    header {
+        padding: 20px; /* Smaller padding for small header */
+    }
 }
 
 nav {
